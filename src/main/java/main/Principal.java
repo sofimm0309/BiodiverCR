@@ -1,16 +1,20 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
+package main;
 
-package com.mycompany.biodivercr;
+import controlador.ControladorLibro;
 
 /**
  *
  * @author sofia
  */
-public class BiodiverCR {
+public class Principal {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        ControladorLibro controlador = new ControladorLibro();
+        controlador.iniciar();
     }
+
 }
